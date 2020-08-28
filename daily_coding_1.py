@@ -20,3 +20,5 @@ def sum_to_target(arr, k):           # arr is list of all int assume (4*n bytes)
         return False
 print(sum_to_target(arr, k))
 
+print("hello");
+
