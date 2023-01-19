@@ -13,6 +13,8 @@ For example, given the sequence [2, 1, 5, 7, 2, 0, 5], your algorithm should pri
 2
 
 APPROACH: Sort the temporary list as you take a slice of the original list, element by element keep adding to the temporary list and then implement the definition of median. 
+
+
 '''
 
 def func(arr):
@@ -31,3 +33,5 @@ def func(arr):
                 print(ly)
 
 func([2,1,5,7,2,0,5])
+
+''' testig for git'''
