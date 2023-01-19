@@ -25,3 +25,5 @@ def func_only_once(lst):
     return -1                     # in case if there are no unique values in the given array
 
 print(func_only_once([2, 4, 6, 8, 10, 2, 6, 10]))
+''' checking for git commit'''
+
