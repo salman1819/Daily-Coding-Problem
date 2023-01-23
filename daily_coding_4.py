@@ -30,7 +30,7 @@ def func(arr):
             return True
         else:
             arr.insert(i, tmp)
-            continue
+            print(arr); # line in fork
     return False
 
 print(func([1,2,500,270,100,8900]))
