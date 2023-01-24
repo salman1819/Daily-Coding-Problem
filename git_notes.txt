@@ -1,0 +1,114 @@
+
+
+     GIT  
+
+        started by Linus Torvalds to manage linux kernel project...
+
+        Git is a Software management tool  -> allowing us to manage complex projects.
+
+        Most important (basic tool) every dev should be aware of.
+
+
+    
+
+     Any project, web app or non web app, we can use git to track changes.
+
+        Ex: Spring boot Java App, Python App, Simple .txt file etc.
+
+
+     	commit ID - Unique ID assigned for a commit 
+
+
+
+     	Github Repository 
+            Ex: 
+     			(FLAIR) project, Open Source projects hosted on GitHub are Kubernetes, Spring Boot etc. 
+
+     
+
+
+     	VCS (Version Control System) - software to help devs to work together
+
+     			Benefits: 
+
+     				- Allows devs to work simultaneously
+     				- Does not allow, overwriting each other's work changes
+     				- Maintains history of every version
+
+
+
+     			Types of VCS:
+
+     					Centralized VCS  (Not in use... deprecated/outdated in industry)
+
+     						One central remote repository / server for your code...
+     							
+     							- only single place to store ur code    -->   One remote server (centralized)
+
+
+
+
+     					Distributed VCS:	
+
+     							features: distributed 
+
+     								(Git)  Software / tool
+
+     									- Advantages:
+
+     											- Open source / free
+     											
+     											- Fast and small
+
+     											- no need of powerful hardware
+
+
+
+     					Git Terminologies:
+
+
+     							1) Local Repository  
+
+                                        - Repository in Git is a place where Git stores all the files. Git can store the files either on the local repository or on the remote repository.
+
+     									- no network needed to access local repository (short form: local repo)
+
+
+                                        - Changes to the local repo are only visible to the single developer who has access to it. Ex: Personal Laptop Owner
+
+
+     							2) Remote Repository
+
+     									- Open Source projects remote repos: Ex: Kubernetes (K8s), Daily-coding (salman/1819 user account's public repo), 
+
+
+     									- Every remote repo has a link (Ex: GitHub URL)
+
+     									- First step to get remote code in your laptop workspace ---> clone the remote repo  ---> copy it in local machine
+
+
+     							3) Staging area:  (lobby)
+
+     									- Place to review files
+
+     									- Before a commit, you can take a look at all changes in staging area
+
+     									- After that commit with message (Ex: git commit -m "updated template.yml")
+
+
+
+                    Git Workflow:
+
+     					(Working directory)  -> add command (staging area)  ->  git commit -m "updated   template.yaml"  -> git push (to remote repository)
+
+
+
+
+     						     4) Commit   -> hold the current state
+
+     										SHA1 hash ()  - secure hash algorithm 1 (developed by US National Security Agency)
+
+     													"alpha numeric commit id  -> which is HexaDecimal format".
+
+                                                        - Hexadecimal means: 0-9 and a-f (a: 10, b: 11, .... f: 15)
+
